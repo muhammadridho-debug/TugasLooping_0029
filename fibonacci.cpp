@@ -12,6 +12,9 @@ void tampilkanMenu() {
     cout << "Masukkan pilihan Anda: ";
 }
 
+void inputAngka() {
+    
+}
 
 int main() {
     pilihan = -1;
