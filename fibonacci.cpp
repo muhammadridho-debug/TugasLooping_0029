@@ -57,6 +57,14 @@ void tampilkanHasilPrima() {
     }
 }
 
+void tampilkanHasilFibonacci() {
+    if (cekFibonacci(angka)) {
+        cout << ">> Hasil: " << angka << " ADALAH bilangan Fibonacci." << endl;
+    } else {
+        cout << ">> Hasil: " << angka << " BUKAN bilangan Fibonacci." << endl;
+    }
+}
+
 int main() {
     pilihan = -1;
     
