@@ -77,6 +77,10 @@ int main() {
                 inputAngka();
                 tampilkanHasilPrima();
                 break;
+            case 2:
+                inputAngka();
+                tampilkanHasilFibonacci();
+                break;
             case 0:
                 cout << "Terima kasih telah menggunakan program ini!" << endl;
                 break;
@@ -84,5 +88,6 @@ int main() {
                 cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
                 break;
         }
+    }
     return 0;
 }
