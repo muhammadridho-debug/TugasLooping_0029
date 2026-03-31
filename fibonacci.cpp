@@ -13,7 +13,8 @@ void tampilkanMenu() {
 }
 
 void inputAngka() {
-    
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angka;
 }
 
 int main() {
