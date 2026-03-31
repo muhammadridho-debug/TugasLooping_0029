@@ -35,6 +35,18 @@ bool cekFibonacci(int n) {
     if (n < 0) {
         return false;
     }
+    int a = 0;
+    int b = 1;
+    
+    // Cek dengan menjumlahkan deret hingga mencapai atau melebihi n
+    while (a < n) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    
+    // Jika a sama dengan n, maka n adalah bilangan Fibonacci
+    return (a == n);
 }
 
 int main() {
