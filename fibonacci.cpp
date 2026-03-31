@@ -17,6 +17,10 @@ void inputAngka() {
     cin >> angka;
 }
 
+bool cekPrima(int n) {
+
+}
+
 int main() {
     pilihan = -1;
     
