@@ -21,6 +21,12 @@ int main() {
         cin >> pilihan;
        
         switch (pilihan) {
+            case 0:
+                cout << "Terima kasih telah menggunakan program ini!" << endl;
+                break;
+            default:
+                cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+                break;
         }
     return 0;
 }
