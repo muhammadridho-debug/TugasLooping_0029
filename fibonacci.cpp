@@ -73,6 +73,10 @@ int main() {
         cin >> pilihan;
        
         switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasilPrima();
+                break;
             case 0:
                 cout << "Terima kasih telah menggunakan program ini!" << endl;
                 break;
