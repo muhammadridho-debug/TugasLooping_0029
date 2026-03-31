@@ -32,7 +32,9 @@ bool cekPrima(int n) {
 }
 
 bool cekFibonacci(int n) {
-
+    if (n < 0) {
+        return false;
+    }
 }
 
 int main() {
