@@ -49,6 +49,14 @@ bool cekFibonacci(int n) {
     return (a == n);
 }
 
+void tampilkanHasilPrima() {
+    if (cekPrima(angka)) {
+        cout << ">> Hasil: " << angka << " ADALAH bilangan Prima." << endl;
+    }else{
+        cout << ">> Hasil: " << angka << " BUKAN bilangan Prima." << endl;
+    }
+}
+
 int main() {
     pilihan = -1;
     
