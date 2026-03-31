@@ -31,6 +31,10 @@ bool cekPrima(int n) {
     return true;
 }
 
+bool cekFibonacci(int n) {
+
+}
+
 int main() {
     pilihan = -1;
     
